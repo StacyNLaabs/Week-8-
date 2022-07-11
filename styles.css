@@ -1,0 +1,40 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #333
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+p {
+    padding: 10px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#navigation {
+    float: left;
+    height: 40px;
+    width: 1000px;
+    background: #F5EDDC;
+}
+
+#content {
+    float: left;
+    background: #FFFFFF;
+    width: 850px;
+}
+
+#leftcolumn {
+    background: #CFD2CF;
+    width: 150px;
+    float: left;
+}
